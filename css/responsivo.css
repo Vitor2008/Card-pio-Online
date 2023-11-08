@@ -200,3 +200,66 @@
 
 
 }
+
+
+
+@media (max-width: 450px){
+    .modal-full .m-header .btn{
+        font-size: 15px!important;
+    }
+
+    .container-cep .btn{
+      font-size: 12px!important;
+    }
+
+    .modal-full .btn-white, .modal-full .btn-yellow {
+       font-size: 14px!important;
+    }
+
+}
+
+
+@media (max-width: 370px){
+
+    .modal-full .btn-white, .modal-full .btn-yellow {
+        font-size: 13px!important;
+     }
+}
+
+@media (max-width: 322px){
+
+    .modal-full .btn-white, .modal-full .btn-yellow {
+        font-size: 9px!important;
+     }
+    
+    
+    .card-item .add-carrinho{
+        height: 5px!important;
+    }
+    
+    .card-item:hover .price-produto{
+        font-size: 20px!important;
+        padding-bottom: 10px!important;
+    }
+
+    .btn-menos, .btn-mais {
+        font-size: 10px!important;
+    }
+
+    .add-numero-itens{
+        font-size: 14px!important;
+    }
+
+    .btn-add{
+        margin-left: 9px;
+    }
+
+    .m-footer .texto-entrega p{
+        font-size: 15px;
+    }
+
+    
+
+
+
+}

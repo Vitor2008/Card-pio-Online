@@ -520,6 +520,9 @@ footer{
     padding-bottom: 20px;
 }
 
+.modal-full .m-header .btn{
+    margin-top: 0px!important;
+}
 
 .m-body{
     flex: 1;
@@ -808,3 +811,25 @@ select.form-control{
     border-radius: 50px;
     margin-bottom: 10px;
 }
+
+
+.linha{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: var(--color-black-heavy);
+  }
+
+
+  footer .end{
+    padding-block: 1rem;
+    text-align: center;
+    color: var(--color-black-heavy);
+}
+
+footer .end a{
+    color: #0ef;
+    font-weight: bold;
+    Text-decoration: none;
+}
+
